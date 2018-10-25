@@ -16,7 +16,7 @@ import javax.naming.InitialContext;
 import javax.naming.NamingException;
 
 public class QueueReader implements MessageListener {
-	 public final static String SERVER="t3://192.168.1.180:7001";
+	 public final static String SERVER="t3://localhost:7001";
 	 public final static String JNDI_FACTORY="weblogic.jndi.WLInitialContextFactory";
 	 public final static String JMS_FACTORY="com.test.weblogic.base.cf";
 	 public final static String QUEUE="com.test.weblogic.base.dq";
