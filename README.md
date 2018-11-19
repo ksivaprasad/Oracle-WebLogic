@@ -7,7 +7,7 @@
 3. Go to 'Environment > Servers'. Click new to create new server. Name the server and set the port and hit 'finish'. 
    (In my case am using AdminServer)
 4. Go to 'Messaging > JMS Servers'. Click new and name it TestJMSServer. 
-   4.1. In the 'Persistent Store' field click 'Create a new Store' button.
+4.1. In the 'Persistent Store' field click 'Create a new Store' button.
    4.2. Choose type as 'File Store' and hit next.
    4.3. name it as 'TestFileStore' and choose the target as 'AdminServer' and hit 'OK'
         (NB: Leave the file store creation if you already have one)
